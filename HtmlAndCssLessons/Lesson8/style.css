@@ -1,0 +1,55 @@
+/* .test-text{
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    line-height: 100px;
+    font-family: 'Courier New', Courier, monospace,sans-serif;
+} */
+
+/* .box-first,  .box-second{
+    width: 100px; 
+    height: 100px;
+}
+.box-first{
+
+    background-color: red;
+}
+.box-second{
+
+    background-color: green;
+} */
+
+
+.box-first{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* margin: 10px; -> External distance */
+    margin: 10px;
+    /* margin-top: 50px ;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-left: 20px; */
+    /* margin: 50px 100px 20px 20px; */
+    /* margin: 100px 50px 10px; */
+    /* ---------------------------------- */
+    /* padding: 10px; -> Internal distance */
+    /* padding-top: 50px ;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    padding-left: 20px; */
+     /* padding: 10px 20px 50px 5px ; */
+
+}
+
+.box-second{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+/* .span1{
+    margin-right: 100px;
+} */

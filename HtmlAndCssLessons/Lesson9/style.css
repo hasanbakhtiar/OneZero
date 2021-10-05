@@ -1,0 +1,32 @@
+
+.box1{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.box2{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.box3{
+    display: inline-block;
+    transform: translate(-4px);
+
+    width: 100px;
+    height: 100px;
+    background-color: indigo;
+}
+
+.test-border{
+    /* width: 100px;
+    height: 100px;
+    border-width: 10px;
+    border-color: red;
+    border-style:outset; */
+    /* border: 10px dotted green; */
+    /* border-radius: 50%; */
+
+}
