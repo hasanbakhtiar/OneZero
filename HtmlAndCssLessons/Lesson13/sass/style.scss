@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    // transform: translateX(100px);
+    // transform: translateY(100px);
+    // transform: translate(100px,200px); minus value avalible
+    // transform: rotate(20deg); //min 0deg -> max 360deg
+    // transform: scaleX(2);
+    // transform: scaleY(2);
+    // transform: scale(2,3);
+    // transform: skewX(20deg);
+    // transform: skewY(20deg);
+    // transform: skew(20deg,100deg);
+    // matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())
+    // transform: matrix(1, -0.3, 0, 1, 0, 0);
+
+
+    
+
+    
+
+}

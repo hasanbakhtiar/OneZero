@@ -1,0 +1,21 @@
+header{
+    width: 100%;
+    height: 70px;
+    background-color: $menimqirmizim;
+    @include between();
+    nav{
+        width: 70%;
+        ul{
+        width: 70%;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            li{
+                a{
+                   color: $ag;
+                }
+            }
+        }
+    }
+}
