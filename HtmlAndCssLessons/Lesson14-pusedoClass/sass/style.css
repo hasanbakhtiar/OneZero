@@ -1,0 +1,24 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.container .box:hover {
+  background-color: green;
+}
+/*# sourceMappingURL=style.css.map */

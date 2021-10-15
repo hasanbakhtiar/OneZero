@@ -1,0 +1,24 @@
+.box{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    // animation-name: menimanimasiyam;
+    // animation-duration: 5s;
+    // animation-iteration-count: infinite;
+    animation: menimanimasiyam 3s infinite;
+}
+
+@keyframes menimanimasiyam {
+    // from{left: 0px;}
+    // to{left: 100px;}
+
+    0%{top: 0;left: 0; background-color: red;}
+    25%{top: 0;left: 500px; background-color: rgb(255, 0, 242);}
+    50%{top: 500px;left: 500px; background-color: rgb(0, 255, 13);}
+    75%{top: 500px;left: 0px; background-color: rgb(0, 50, 187);}
+    100%{top: 0px;left: 0px; background-color: rgb(66, 33, 64);}
+
+
+
+}

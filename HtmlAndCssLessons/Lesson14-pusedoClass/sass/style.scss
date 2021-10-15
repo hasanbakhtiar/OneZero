@@ -1,0 +1,67 @@
+// https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_nth-child
+
+// h1:nth-child(2) {
+//     background: red;
+//   }
+//   h1:nth-child(odd) {
+//     background: red;
+//   }
+// h1:nth-child(even) {
+//     background: red;
+//   }
+
+//   h1:nth-child(2n+1) {
+//     background: red;
+//   }
+
+//   h1:nth-child(2n+2) {
+//     background: red;
+//   }
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .box{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        &:hover{
+            background-color: green;
+
+        }
+    }
+}
+
+// .demo-text::after{
+//   content: "After";
+// }
+
+// .demo-text{
+//     &::after{
+//   content: "After";
+
+//     }
+// }
+
+// .demo-text::before{
+//     content: "Before";
+//     color: red;
+//     width: 100px;
+//     height: 100px;
+//     background-color: greenyellow;
+//     display: block;
+// }
+
+// .demo-text{
+//   &::before { content: "Before";
+//     color: red;
+//     width: 100px;
+//     height: 100px;
+//     background-color: greenyellow;
+//     display: block;}
+// }
+

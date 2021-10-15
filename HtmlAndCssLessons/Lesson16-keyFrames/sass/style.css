@@ -1,0 +1,65 @@
+.box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  -webkit-animation: menimanimasiyam 3s infinite;
+          animation: menimanimasiyam 3s infinite;
+}
+
+@-webkit-keyframes menimanimasiyam {
+  0% {
+    top: 0;
+    left: 0;
+    background-color: red;
+  }
+  25% {
+    top: 0;
+    left: 500px;
+    background-color: #ff00f2;
+  }
+  50% {
+    top: 500px;
+    left: 500px;
+    background-color: #00ff0d;
+  }
+  75% {
+    top: 500px;
+    left: 0px;
+    background-color: #0032bb;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    background-color: #422140;
+  }
+}
+
+@keyframes menimanimasiyam {
+  0% {
+    top: 0;
+    left: 0;
+    background-color: red;
+  }
+  25% {
+    top: 0;
+    left: 500px;
+    background-color: #ff00f2;
+  }
+  50% {
+    top: 500px;
+    left: 500px;
+    background-color: #00ff0d;
+  }
+  75% {
+    top: 500px;
+    left: 0px;
+    background-color: #0032bb;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    background-color: #422140;
+  }
+}
+/*# sourceMappingURL=style.css.map */

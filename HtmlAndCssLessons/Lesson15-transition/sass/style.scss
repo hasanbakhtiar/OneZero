@@ -1,0 +1,33 @@
+// #div1 {transition-timing-function: linear;}
+// #div2 {transition-timing-function: ease;}
+// #div3 {transition-timing-function: ease-in;}
+// #div4 {transition-timing-function: ease-out;}
+// #div5 {transition-timing-function: ease-in-out;}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        .box{
+        
+            width: 100px;
+            height: 100px;
+            background-color:red;
+            // transition-property: background-color;
+            // transition-duration: 2s;
+            // transition: background-color 2s, border 3s;
+            // transition: 2s all;
+            // transition-delay: 3s;
+            transition: 2s width ease;
+            
+            // transition-timing-function: ease;
+
+            &:hover{
+                width: 300px;
+                // border: 3px solid #000;
+                background-color: green;
+            }
+        }
+}
