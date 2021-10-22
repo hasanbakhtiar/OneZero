@@ -1,0 +1,15 @@
+.my-border {
+  border-left: 2px solid #000;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+section .box {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container .box {
+  width: 200px;
+  height: 400px;
+  background-color: #eee;
+  padding: 20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 700px) {
+  .container {
+    width: 100%;
+    height: 500vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .container .box .my-element {
+    color: green;
+    display: inline-block;
+    margin: 0 0.5rem;
+    -webkit-animation: wobble;
+            animation: wobble;
+    /* referring directly to the animation's @keyframe declaration */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    /* don't forget to set a duration! */
+  }
+}
+/*# sourceMappingURL=style.css.map */
