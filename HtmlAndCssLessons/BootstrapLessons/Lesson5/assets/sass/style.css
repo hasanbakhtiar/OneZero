@@ -1,0 +1,26 @@
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sec-1 .about-text-con {
+  height: 511px;
+}
+
+.sec-1 img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.sec-3 .sec-3-text {
+  width: 100%;
+}
+
+.sec-3 .sec-3-text .sec-3-hone {
+  width: 70%;
+}
+/*# sourceMappingURL=style.css.map */
