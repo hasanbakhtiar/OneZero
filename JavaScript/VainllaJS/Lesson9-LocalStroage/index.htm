@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .text-line{
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+
+
+
+
+    <input type="text"><button id="btnOne">Add</button><button id="btnTwo">LS</button>
+    <div id="toDoContainer">
+        <p id="one" class=""></p>
+        <p id="two1" class=""></p>
+        <p id="two2" class=""></p>
+        <p id="two3" class=""></p>
+    </div>
+
+    <script>
+const txt = '{"name":"John", "age":30, "city":"New York", "className":"text-line"}'
+const obj = JSON.parse(txt);
+localStorage.setItem('myData1', obj.name)
+localStorage.setItem('myData2', obj.age)
+localStorage.setItem('myData3', obj.city)
+localStorage.setItem('className', 'text-line');
+document.getElementById('two1').innerHTML = localStorage.getItem('myData3');
+document.getElementById('two1').attributes[1].value = localStorage.getItem('className');
+document.getElementById('two2').innerHTML = localStorage.getItem('myData2');
+document.getElementById('two3').innerHTML = localStorage.getItem('myData1');
+
+    </script>
+
+
+    <!-- <script src="js/script.js"></script> -->
+</body>
+</html>
