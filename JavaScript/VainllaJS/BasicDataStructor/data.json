@@ -1,0 +1,24 @@
+{
+    "Car":[
+        {
+            "model": "mercedes",
+            "color": "white",
+            "doortype":4
+        },
+        {
+            "model": "mercedes",
+            "color": "white",
+            "doortype":4
+        },
+        {
+            "model": "mercedes",
+            "color": "white",
+            "doortype":4
+        },
+        {
+            "model": "mercedes",
+            "color": "white",
+            "doortype":4
+        }
+    ]
+}

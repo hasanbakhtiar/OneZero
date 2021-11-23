@@ -1,0 +1,27 @@
+<Auto>
+
+            <Car uniq='1'>
+                    <model>mercedes</model>
+                    <color>white</color>
+                    <doortype>4</doortype>
+            </Car>
+
+            <Car uniq='2'>
+                    <model>mercedes</model>
+                    <color>white</color>
+                    <doortype>4</doortype>
+            </Car>
+
+            <Car uniq = '3'>
+                    <model>mercedes</model>
+                    <color>white</color>
+                    <doortype>4</doortype>
+            </Car>
+
+            <Car uniq = '4'>
+                    <model>mercedes</model>
+                    <color>white</color>
+                    <doortype>4</doortype>
+            </Car>
+
+</Auto>
