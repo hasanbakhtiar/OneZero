@@ -1,0 +1,8 @@
+.sectionCardText{
+    color: red;
+    border: 3px solid red;
+    transition: 1s;
+    &:hover{
+        background-color: #000;
+    }
+}
