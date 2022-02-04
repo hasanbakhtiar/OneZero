@@ -39,4 +39,10 @@ const App =()=>{
 }
 
 
+// const a = ["Hello", 5, 10];
+// console.log(
+// ...a
+// );
+
+
 ReactDOM.render(<App />,document.querySelector("#root"));
