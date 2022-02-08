@@ -5,7 +5,7 @@ import blogsReducer from '../reducers/blogs';
 export default ()=>{
     const store = createStore(
         combineReducers({
-           blog: blogsReducer
+           item: blogsReducer
         })
     )
     return store;
