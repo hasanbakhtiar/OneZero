@@ -1,3 +1,4 @@
+// 7ci BlogLİstİtem qurulur
 import React from 'react';
 import {Link} from 'react-router-dom';
 

@@ -1,3 +1,4 @@
+// 1ci store qurulur 
 import { combineReducers, createStore } from 'redux';
 import blogsReducer from '../reducers/blogs';
 

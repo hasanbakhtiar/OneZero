@@ -1,4 +1,4 @@
-
+// 2ci reducers qurulur
 // Reducer start
 const blogState = [];
 
@@ -24,6 +24,7 @@ const blogsReducer = (state = blogState, action)=>{
                     return blog;
                 }
             })
+           
         default:
            return state;
     }

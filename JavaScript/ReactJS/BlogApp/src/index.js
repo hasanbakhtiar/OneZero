@@ -27,9 +27,10 @@ store.subscribe(()=>{
 // store.dispatch(removeBlog({id:blog1.blog.id}));
 // store.dispatch(editBlog(blog2.blog.id,{title: "update"}))
 // Dispatch End
-
+// 4cu dispatch olunur
 const blogOne = store.dispatch(addBlog({title:"Blog One", description:"Desk"}))
 const blogTwo = store.dispatch(addBlog({title:"Blog Two", description:"desk"}))
+ store.dispatch(addBlog({title:"Blog Two", description:"desk"}))
 console.log();
 store.dispatch(removeBlog({id:blogOne.blog.id}))
 store.dispatch(editBlog(blogTwo.blog.id,{title:"Rafet"}))

@@ -1,3 +1,4 @@
+// 8ci BlogListItem BlogLİstde cagirlir
 import React from 'react';
 import { connect } from "react-redux";
 import BlogListItem from './BlogListItem';
