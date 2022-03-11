@@ -1,0 +1,13 @@
+.active {
+  color: red !important;
+}
+body.light {
+  color: #757575;
+  background-color: #eee;
+}
+
+body.dark {
+  color: #eee;
+  background-color: #757575;
+}
+/*# sourceMappingURL=style.css.map */
